@@ -1,0 +1,11 @@
+{
+    "structure": [
+        "<IMPORTS>",
+        "<AUTOR_BLOCK>",
+        "<CONSTRUCTOR>",
+        "<COMMENT_PUBLIC_BLOCK>",
+        "<COMMENT_PRIVATE_BLOCK>",
+        "<COMMENT_INTERNAL_BLOCK>",
+        "<COMMENT_OTHER_BLOCK>"
+    ]
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="MoveManager">
+    <configurations>
+      <configuration name="MoveManager" target-platform="Desktop" pure-as="true" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/../out/production/MoveManager">
+        <dependencies target-player="19.0">
+          <entries>
+            <entry library-id="2767bd21-17c1-494a-b3df-ba07863eb2df">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="5e0fd698-25a9-4c16-ba21-bc724a42a3ce">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="e6e08547-a3c6-4d5a-862b-4ce6dbe1c4dd">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="arrow1" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="ApacheFlexSDK" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop package-file-name="Main" />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="ApacheFlexSDK" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="2767bd21-17c1-494a-b3df-ba07863eb2df" />
+        <CLASSES>
+          <root url="file://D:/moveManager" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="5e0fd698-25a9-4c16-ba21-bc724a42a3ce" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/arrow.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="e6e08547-a3c6-4d5a-862b-4ce6dbe1c4dd" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/greensock.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="arrow1" level="project" />
+  </component>
+</module>

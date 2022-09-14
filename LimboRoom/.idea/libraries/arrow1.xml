@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="arrow1" type="flex">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/library/swc/arrow.swc!/" />
+      <root url="jar://$PROJECT_DIR$/library/swc/greensock.swc!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

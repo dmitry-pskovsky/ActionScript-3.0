@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="Desktop">
+    <configurations>
+      <configuration name="Desktop" target-platform="Desktop" pure-as="true" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/out/desktop">
+        <dependencies>
+          <entries>
+            <entry library-id="1cd024c1-52ab-4ad7-8ff4-a62a3b4106b8">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="d6a7c3e6-bf85-4b62-93a0-05b93646d83e">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="6e2b500c-36aa-4be2-b39b-b9ae3be8e1ef">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="c978883e-ab75-4f8f-9858-f15befedc700">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="2c20e737-85b2-4764-b6d7-7995e2d7bddd">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="ApacheFlexSDK" />
+        </dependencies>
+        <compiler-options>
+          <option name="additionalOptions" value="-define=CONFIG::mobile,&quot;false&quot; -define=CONFIG::decktop,&quot;true&quot; -default-size 820 640 -advanced-telemetry=true" />
+        </compiler-options>
+        <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/conf/desktop/Main-app.xml" package-file-name="desktop" />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+      <configuration name="Mobile" target-platform="Mobile" pure-as="true" main-class="Main" output-file="Mobile.swf" output-folder="$MODULE_DIR$/out/mobile">
+        <dependencies>
+          <entries>
+            <entry library-id="c35e9b4f-5714-4fcb-b829-c653463e51b6">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="ee33b040-efa1-4b84-9cd6-f0b5166df694">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="2afddcce-1b81-4cf9-aa8a-7fcf0be86e30">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="db9ad5ed-2038-4dbc-8e50-82e12b0b42a4">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="6deeb781-1bdb-4b47-9796-cbb0584bbea1">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="ApacheFlexSDK" />
+        </dependencies>
+        <compiler-options>
+          <option name="additionalOptions" value="-define=CONFIG::mobile,&quot;true&quot; -define=CONFIG::decktop,&quot;false&quot; -default-size 480 854" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/conf/mobile/Main-app.xml" package-file-name="Mobile" />
+        <packaging-ios package-file-name="Mobile" />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="ApacheFlexSDK" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="1cd024c1-52ab-4ad7-8ff4-a62a3b4106b8" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib/Gamua-Starling-Framework-v1.7-0-g110c2a5 (1)/Gamua-Starling-Framework-110c2a5/starling/src" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="d6a7c3e6-bf85-4b62-93a0-05b93646d83e" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib/Hi-ReS-Stats-master/src" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="6e2b500c-36aa-4be2-b39b-b9ae3be8e1ef" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/greensock.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="c35e9b4f-5714-4fcb-b829-c653463e51b6" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib/Gamua-Starling-Framework-v1.7-0-g110c2a5 (1)/Gamua-Starling-Framework-110c2a5/starling/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/lib/Gamua-Starling-Framework-v1.7-0-g110c2a5 (1)/Gamua-Starling-Framework-110c2a5/samples/demo/src" />
+          <root url="file://$MODULE_DIR$/lib/Gamua-Starling-Framework-v1.7-0-g110c2a5 (1)/Gamua-Starling-Framework-110c2a5/samples/demo_mobile/src" />
+          <root url="file://$MODULE_DIR$/lib/Gamua-Starling-Framework-v1.7-0-g110c2a5 (1)/Gamua-Starling-Framework-110c2a5/samples/demo_web/src" />
+          <root url="file://$MODULE_DIR$/lib/Gamua-Starling-Framework-v1.7-0-g110c2a5 (1)/Gamua-Starling-Framework-110c2a5/samples/scaffold_mobile/src" />
+          <root url="file://$MODULE_DIR$/lib/Gamua-Starling-Framework-v1.7-0-g110c2a5 (1)/Gamua-Starling-Framework-110c2a5/starling/src" />
+          <root url="file://$MODULE_DIR$/lib/Gamua-Starling-Framework-v1.7-0-g110c2a5 (1)/Gamua-Starling-Framework-110c2a5/tests/src" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/lib/Gamua-Starling-Framework-v1.7-0-g110c2a5 (1)/Gamua-Starling-Framework-110c2a5/starling/bin" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="ee33b040-efa1-4b84-9cd6-f0b5166df694" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/greensock.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="2afddcce-1b81-4cf9-aa8a-7fcf0be86e30" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib/Hi-ReS-Stats-master/src" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="db9ad5ed-2038-4dbc-8e50-82e12b0b42a4" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/Vibration/VibrationActionScriptLibrary.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="6deeb781-1bdb-4b47-9796-cbb0584bbea1" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/Vibration/com.adobe.extensions.Vibration.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="c978883e-ab75-4f8f-9858-f15befedc700" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/Vibration/VibrationActionScriptLibrary.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="2c20e737-85b2-4764-b6d7-7995e2d7bddd" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/Vibration/com.adobe.extensions.Vibration.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
